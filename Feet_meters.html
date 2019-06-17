@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p><h4>Chuyển đổi giữa Feet và Meters</h4></p>
+<p><h4>Feet <input type="number" oninput="hihi(this.value)" /></h4></p>
+<p><h4>Meters: <span id ="haha"/></h4></p>
+<p><h4>Meters  <input type="number" oninput="x(this.value)" /> </h4></p>
+<p><h4>Feet:  <span id ="y"/> </h4></p>
+<script>
+    function hihi(hehe) {
+        hehe =  parseFloat(hehe);
+        document.getElementById("haha").innerHTML=0.305*hehe ;
+        
+    }
+    function x(z) {
+        z = parseFloat(z);
+        document.getElementById("y").innerHTML=3.279*z;
+
+    }
+</script>
+</body>
+</html>
